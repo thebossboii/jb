@@ -4,11 +4,11 @@
 local Hashes = {
     -- NEW 20.12.2020(by satya)
  
-    EquipItem = "d8d8a4ce",
+    EquipItem = "b01d8268",
     Eject = "fda822a4",
     SendVault = "d7adfec1",
     TeamChange = "ffab989d",
-    Arrest = "c05c204f",
+    Arrest = "d8d8a4ce",
     SpawnVehicle = "c9995c06",
     RopeAttach = "f93f08ec",
     GetDonut = "e5867ca1",
