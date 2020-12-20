@@ -5,19 +5,19 @@
 -- Thanks to Kal for jeep spawn
 
 local Hashes = {
-    -- NEW 1.12.2020(by satya)
-
-    EquipItem = "a6a9e8a0",
-    Eject = "af6e6c42",
-    SendVault = "d69d2f45",
-    TeamChange = "c95ebbec",
-    Arrest = "c403456e",
-    SpawnVehicle = "ffb2e96b",
-    RopeAttach = "a15a911b",
-    GetDonut = "dd96918e",
-    EatDonut = "f205949f",
-    EnterVehicle = "d926aabb",
-    LockCar = "ddefbc4c"
+    -- NEW 20.12.2020(by satya)
+ 
+    EquipItem = "d8d8a4ce",
+    Eject = "fda822a4",
+    SendVault = "d7adfec1",
+    TeamChange = "ffab989d",
+    Arrest = "c05c204f",
+    SpawnVehicle = "c9995c06",
+    RopeAttach = "f93f08ec",
+    GetDonut = "e5867ca1",
+    EatDonut = "ee7bb8c9",
+    EnterVehicle = "cf7fb131",
+    LockCar = "ffa0a153"
     --
 }
 
