@@ -1,12 +1,9 @@
--- Discord: https://discord.gg/tpfUUXtjuh
+-- Discord: https://discord.gg/3PQXQQzZrs
 -- Written by NT Authority
--- Edited by satya
--- Thanks to skullki12 for eat donut
--- Thanks to Kal for jeep spawn
 
 local Hashes = {
-    -- NEW 20.12.2020(by satya)
- 
+    -- NEW 20.12.2020 satya
+
     EquipItem = "b01d8268",
     Eject = "fda822a4",
     SendVault = "d7adfec1",
@@ -17,22 +14,25 @@ local Hashes = {
     GetDonut = "e5867ca1",
     EatDonut = "ee7bb8c9",
     EnterVehicle = "cf7fb131",
-    LockCar = "ffa0a153"
-    --
+    LockCar = "ffa0a153",
+
 }
 
 local previousHashes = {
-    EquipItem = "ff992eae",
-    Eject = "dd04232d",
-    SendVault = "e0f64549",
-    TeamChange = "e8b772c8",
-    Arrest = "b5a5d1f5",
-    SpawnVehicle = "ee6536a4",
-    RopeAttach = "b050dc6c",
-    GetDonut = "fb091069",
-    EatDonut = "aac0a284",
-    EnterVehicle = "f1c87fb0",
-    LockCar = "b30be04e"
+    -- OLD 11.12.2020
+
+    EquipItem = "e7217f44",
+    Eject = "c09ce270",
+    SendVault = "d0620d65",
+    TeamChange = "bb200d0f",
+    Arrest = "ead4aec1",
+    SpawnVehicle = "e054efff",
+    RopeAttach = "d5d8e556",
+    GetDonut = "bb711e5c",
+    EatDonut = "ce153c3b",
+    EnterVehicle = "b3bf54da",
+    LockCar = "e270edeb"
+    --
 }
 
 getgenv().utils = {
@@ -121,12 +121,12 @@ local function GoToNew()
                 if syn then
                     syn.queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/thebossboii/jb/main/jb.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
                     )
                 else
                     queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/thebossboii/jb/main/jb.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/Gork3m/Jailbricked/master/ArrestFarm.lua'))()"
                     )
                 end
             end
@@ -233,7 +233,7 @@ if getgenv()._AutoArrestInitialized ~= nil then
         wait(19)
     end
 end
-local adminList = {"JAILBREAKIAN82", "satyawillbetheboss"}
+local adminList = {"fuck_asimo", "ITriedToHelpYou_but_youfuckingrefused"}
 local blackList = {"TransRights"}
 local tstamp = 1604059200
 
@@ -436,7 +436,7 @@ header.BorderSizePixel = 0
 header.Position = UDim2.new(-0.00319488812, 0, -0.178466588, 0)
 header.Size = UDim2.new(0, 313, 0, 22)
 header.Font = Enum.Font.GothamBold
-header.Text = "Jailbricked Arrest Farm(New discord)"
+header.Text = "Jailbricked Arrest Farm(New Discord)"
 header.TextColor3 = Color3.fromRGB(213, 213, 213)
 header.TextSize = 15.000
 header.TextStrokeColor3 = Color3.fromRGB(70, 11, 86)
@@ -562,7 +562,7 @@ subtitle.BorderSizePixel = 0
 subtitle.Position = UDim2.new(0, 0, 1, 0)
 subtitle.Size = UDim2.new(0, 313, 0, 24)
 subtitle.Font = Enum.Font.SourceSansBold
-subtitle.Text = "https://discord.gg/tpfUUXtjuh"
+subtitle.Text = "https://discord.gg/3PQXQQzZrs"
 subtitle.TextColor3 = Color3.fromRGB(199, 195, 203)
 subtitle.TextSize = 15.000
 subtitle.TextStrokeColor3 = Color3.fromRGB(70, 11, 86)
@@ -1524,7 +1524,7 @@ if true then
     game.StarterGui:SetCore(
         "ChatMakeSystemMessage",
         {
-            Text = "Please wait, it is not broken or stuck. Just be fucking patient and wait until it loads. Thanks - NT Authorityand ur boss.",
+            Text = "Please wait, it is not broken or stuck. Just be fucking patient and wait until it loads. Thanks - NT Authority.",
             Color = Color3.new(0, 0.3, 0.3)
         }
     )
