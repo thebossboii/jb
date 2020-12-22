@@ -2,7 +2,7 @@
 -- Written by NT Authority
 
 local Hashes = {
-    -- NEW 20.12.2020 by satya
+    -- NEW 22.12.2020 by satya
 
     EquipItem = "f0427af8",
     Eject = "b6726516",
