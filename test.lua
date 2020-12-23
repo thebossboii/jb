@@ -1,4 +1,4 @@
-wait(10)
+wait(20)
 -- Discord: https://discord.gg/3PQXQQzZrs
 -- Written by NT Authority
 
