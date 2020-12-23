@@ -1,6 +1,7 @@
 -- Discord: https://discord.gg/3PQXQQzZrs
 -- Written by NT Authority
 
+wait(5)
 local Hashes = {
     -- NEW 22.12.2020 by satya
 
