@@ -122,12 +122,12 @@ local function GoToNew()
                 if syn then
                     syn.queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/thebossboii/jb/main/jb-camero.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/thebossboii/jb/main/test.lua'))()"
                     )
                 else
                     queue_on_teleport(
                         crossServerSettings ..
-                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/thebossboii/jb/main/jb-camero.lua'))()"
+                            " loadstring(game:HttpGet('https://raw.githubusercontent.com/thebossboii/jb/main/test.lua'))()"
                     )
                 end
             end
