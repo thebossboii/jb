@@ -2,19 +2,19 @@
 -- Written by NT Authority
 
 local Hashes = {
-    -- NEW 22.12.2020 by satya
+    -- NEW 25.12.2020 by satya
 
-    EquipItem = "d6843dd6",
-    Eject = "b2d56cf6",
-    SendVault = "b1127c59",
-    TeamChange = "bbe6909a",
-    Arrest = "b0eaab07",
-    SpawnVehicle = "e8ed25f8",
-    RopeAttach = "ff61e91f",
-    GetDonut = "b2406d36",
-    EatDonut = "dbafb82e",
-    EnterVehicle = "aa399d99",
-    LockCar = "dd6d1013",
+    EquipItem = "ff4b3f53",
+    Eject = "aa6ebeaf",
+    SendVault = "b20f7a48",
+    TeamChange = "dd7241cc",
+    Arrest = "d3d400a6",
+    SpawnVehicle = "b8bd758d",
+    RopeAttach = "e4eb384f",
+    GetDonut = "ff2c65f9",
+    EatDonut = "a466feaa",
+    EnterVehicle = "fe1e3d6e",
+    LockCar = "b767851b",
 
 }
 
