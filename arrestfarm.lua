@@ -37,7 +37,7 @@ end
 local queuemethods = (syn and syn.queue_on_teleport) or queue_on_teleport
 game:GetService("Players").LocalPlayer.OnTeleport:Connect(function(State)
     if State == Enum.TeleportState.Started then
-     queuemethods('getgenv().fast='..tostring(getgenv().fast)..' loadstring(game:HttpGet("https://pastebin.com/raw/Q7BuM0Us",true))()')
+     queuemethods('getgenv().fast='..tostring(getgenv().fast)..' loadstring(game:HttpGet("https://raw.githubusercontent.com/thebossboii/jb/main/arrestfarm.lua",true))()')
     end
 end)
 
