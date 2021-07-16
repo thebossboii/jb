@@ -24,7 +24,7 @@ local function serverhop(er)
                 warn("Teleporting")
                 --Hah, now no autoban
                 if er and er == "err" then
-                    game.Players.LocalPlayer:Kick("Script currently patched or using or this is an old server")
+                    wait()
                 else
                     game.Players.LocalPlayer:Kick("Teleporting")
                 end
